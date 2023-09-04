@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-09-04T17:06:42.325Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="zjHj5u0YI-e1lpikV-ZB" version="21.7.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-04T17:25:00.116Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="WHyHO0C22iyoR8Haix0F" version="21.7.2" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1434" dy="782" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -8,16 +8,16 @@
           <mxGeometry x="20" y="40" width="190" height="200" as="geometry" />
         </mxCell>
         <mxCell id="d-2n3dWVt-4a5A3TCcYL-1" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;Output&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ output(String): void&lt;br&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="319" y="290" width="190" height="90" as="geometry" />
+          <mxGeometry x="370" y="310" width="190" height="90" as="geometry" />
         </mxCell>
         <mxCell id="d-2n3dWVt-4a5A3TCcYL-2" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b style=&quot;border-color: var(--border-color);&quot;&gt;Power&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ status: Boolean&lt;br&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ getStatus(): Boolean&lt;br&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="330" y="530" width="130" height="90" as="geometry" />
+          <mxGeometry x="370" y="536" width="130" height="90" as="geometry" />
         </mxCell>
         <mxCell id="d-2n3dWVt-4a5A3TCcYL-3" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Battery&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ precent: Integer&lt;br&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ getPrecent: Integer&lt;br&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="330" y="410" width="130" height="100" as="geometry" />
+          <mxGeometry x="370" y="416" width="130" height="100" as="geometry" />
         </mxCell>
         <mxCell id="d-2n3dWVt-4a5A3TCcYL-4" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;Message&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ createPowerMessage(precent, status);&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+createOtherMessage&lt;br&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="600" y="320" width="185" height="160" as="geometry" />
+          <mxGeometry x="630" y="284" width="185" height="160" as="geometry" />
         </mxCell>
         <mxCell id="d-2n3dWVt-4a5A3TCcYL-6" value="DeviceImpl" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="10" y="350" width="280" height="270" as="geometry" />
@@ -28,7 +28,7 @@
         <mxCell id="d-2n3dWVt-4a5A3TCcYL-8" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="d-2n3dWVt-4a5A3TCcYL-6">
           <mxGeometry y="52" width="280" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="d-2n3dWVt-4a5A3TCcYL-9" value="+ &lt;br&gt;Message msg ;&lt;br&gt;&lt;br&gt;outputMessage():&amp;nbsp;&lt;br&gt;{&lt;br&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;boolean status = power.getStatus;&lt;/blockquote&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;Integer precent = battery.getPercent();&lt;/blockquote&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;&lt;/blockquote&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&amp;nbsp; &amp;nbsp; String msg&amp;nbsp;.= createPowerMessage(precent, status);&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;foreach outputs:&lt;/blockquote&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;{&lt;/blockquote&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;&amp;nbsp; output.output(message);&lt;/blockquote&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;}&lt;/blockquote&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="d-2n3dWVt-4a5A3TCcYL-6">
+        <mxCell id="d-2n3dWVt-4a5A3TCcYL-9" value="+ &lt;br&gt;Message msg ;&lt;br&gt;&lt;br&gt;outputMessage():&amp;nbsp;&lt;br&gt;{&lt;br&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;boolean status = power.getStatus;&lt;/blockquote&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;int precent = null;&lt;/blockquote&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;if battery!=null)&lt;/blockquote&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;battery.getPercent();&lt;/blockquote&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;&lt;/blockquote&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&amp;nbsp; &amp;nbsp; String msg&amp;nbsp;.= createPowerMessage(precent, status);&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;foreach outputs:&lt;/blockquote&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;{&lt;/blockquote&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;&amp;nbsp; output.output(message);&lt;/blockquote&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;}&lt;/blockquote&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="d-2n3dWVt-4a5A3TCcYL-6">
           <mxGeometry y="60" width="280" height="210" as="geometry" />
         </mxCell>
         <mxCell id="d-2n3dWVt-4a5A3TCcYL-10" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="d-2n3dWVt-4a5A3TCcYL-6">
@@ -38,37 +38,37 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="d-2n3dWVt-4a5A3TCcYL-12" value="Display" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="570" y="30" width="220" height="100" as="geometry" />
+          <mxGeometry x="250" y="90" width="176" height="100" as="geometry" />
         </mxCell>
         <mxCell id="d-2n3dWVt-4a5A3TCcYL-14" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="d-2n3dWVt-4a5A3TCcYL-12">
-          <mxGeometry y="26" width="220" height="8" as="geometry" />
+          <mxGeometry y="26" width="176" height="8" as="geometry" />
         </mxCell>
         <mxCell id="d-2n3dWVt-4a5A3TCcYL-15" value="+ output(String message): void&lt;br&gt;{&lt;br&gt;&amp;nbsp;&amp;nbsp; &amp;nbsp;print(&quot;display&quot; + message);}&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;}" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="d-2n3dWVt-4a5A3TCcYL-12">
-          <mxGeometry y="34" width="220" height="66" as="geometry" />
+          <mxGeometry y="34" width="176" height="66" as="geometry" />
         </mxCell>
         <mxCell id="d-2n3dWVt-4a5A3TCcYL-16" value="Speaker" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="565" y="160" width="220" height="100" as="geometry" />
+          <mxGeometry x="460" y="80" width="170" height="100" as="geometry" />
         </mxCell>
         <mxCell id="d-2n3dWVt-4a5A3TCcYL-17" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="d-2n3dWVt-4a5A3TCcYL-16">
-          <mxGeometry y="26" width="220" height="8" as="geometry" />
+          <mxGeometry y="26" width="170" height="8" as="geometry" />
         </mxCell>
         <mxCell id="d-2n3dWVt-4a5A3TCcYL-18" value="+ output(String message): void&lt;br&gt;{&lt;br&gt;&amp;nbsp; &amp;nbsp;print(&quot;say&quot; + message);}" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="d-2n3dWVt-4a5A3TCcYL-16">
-          <mxGeometry y="34" width="220" height="66" as="geometry" />
+          <mxGeometry y="34" width="170" height="66" as="geometry" />
         </mxCell>
-        <mxCell id="d-2n3dWVt-4a5A3TCcYL-24" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;exitX=0;exitY=0.318;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="d-2n3dWVt-4a5A3TCcYL-18" target="d-2n3dWVt-4a5A3TCcYL-1">
+        <mxCell id="d-2n3dWVt-4a5A3TCcYL-24" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;exitX=0.453;exitY=1.03;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="d-2n3dWVt-4a5A3TCcYL-18" target="d-2n3dWVt-4a5A3TCcYL-1">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="510" y="360" as="sourcePoint" />
             <mxPoint x="670" y="360" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="d-2n3dWVt-4a5A3TCcYL-25" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=-0.005;exitY=0.318;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="d-2n3dWVt-4a5A3TCcYL-15" target="d-2n3dWVt-4a5A3TCcYL-1">
+        <mxCell id="d-2n3dWVt-4a5A3TCcYL-25" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;entryX=0.216;entryY=-0.056;entryDx=0;entryDy=0;exitX=0.35;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="d-2n3dWVt-4a5A3TCcYL-15" target="d-2n3dWVt-4a5A3TCcYL-1">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="670" y="320" as="sourcePoint" />
             <mxPoint x="664" y="240" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="d-2n3dWVt-4a5A3TCcYL-29" value="MessageImpl" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="530" y="550" width="260" height="310" as="geometry" />
+          <mxGeometry x="560" y="500" width="260" height="310" as="geometry" />
         </mxCell>
         <mxCell id="d-2n3dWVt-4a5A3TCcYL-30" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="d-2n3dWVt-4a5A3TCcYL-29">
           <mxGeometry y="26" width="260" height="8" as="geometry" />
@@ -76,10 +76,66 @@
         <mxCell id="d-2n3dWVt-4a5A3TCcYL-31" value="&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;+ statis createPowerMessage(precent, status)&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;{&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;&quot;&gt; &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;String msg = &quot;Current &quot;&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;if (status==true)&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;{&lt;/p&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;if (precent==null)&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;msg += &quot;&lt;span style=&quot;color: var(--highlight-comment); font-family: inherit; font-size: 13px; font-style: inherit; font-variant-ligatures: inherit; font-variant-caps: inherit; font-weight: inherit; background-color: transparent;&quot;&gt;plugged into wall power&quot;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;&lt;span style=&quot;color: var(--highlight-comment); font-family: inherit; font-size: 13px; font-style: inherit; font-variant-ligatures: inherit; font-variant-caps: inherit; font-weight: inherit; background-color: transparent;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; else&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial; border-color: var(--border-color);&quot;&gt;&lt;span style=&quot;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;msg += &quot;&lt;/span&gt;battery level is &quot; + precent + &quot;% and charging&lt;span style=&quot;background-color: transparent; color: var(--highlight-comment); font-family: inherit; font-size: 13px; font-style: inherit; font-variant-ligatures: inherit; font-variant-caps: inherit; font-weight: inherit;&quot;&gt;&quot;&lt;/span&gt;&lt;/p&gt;&lt;/blockquote&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: var(--highlight-comment); font-family: inherit; font-size: 13px; font-style: inherit; font-variant-ligatures: inherit; font-variant-caps: inherit; font-weight: inherit;&quot;&gt;&amp;nbsp; &amp;nbsp; }&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: var(--highlight-comment); font-family: inherit; font-size: 13px; font-style: inherit; font-variant-ligatures: inherit; font-variant-caps: inherit; font-weight: inherit;&quot;&gt;&amp;nbsp; &amp;nbsp; else ()&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: var(--highlight-comment); font-family: inherit; font-size: 13px; font-style: inherit; font-variant-ligatures: inherit; font-variant-caps: inherit; font-weight: inherit;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;{&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: var(--highlight-comment); font-family: inherit; font-size: 13px; font-style: inherit; font-variant-ligatures: inherit; font-variant-caps: inherit; font-weight: inherit;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; something else;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: var(--highlight-comment); font-family: inherit; font-size: 13px; font-style: inherit; font-variant-ligatures: inherit; font-variant-caps: inherit; font-weight: inherit;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;}&lt;/span&gt;&lt;/p&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: var(--highlight-comment); font-family: inherit; font-weight: inherit; border-color: var(--border-color); font-size: 13px; font-style: inherit; font-variant-ligatures: inherit; font-variant-caps: inherit;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;}&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;/p&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="d-2n3dWVt-4a5A3TCcYL-29">
           <mxGeometry y="34" width="260" height="276" as="geometry" />
         </mxCell>
-        <mxCell id="d-2n3dWVt-4a5A3TCcYL-32" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;exitX=0.615;exitY=0.01;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="d-2n3dWVt-4a5A3TCcYL-29">
+        <mxCell id="d-2n3dWVt-4a5A3TCcYL-32" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.615;exitY=0.01;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="d-2n3dWVt-4a5A3TCcYL-29" target="d-2n3dWVt-4a5A3TCcYL-4">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="665" y="607" as="sourcePoint" />
             <mxPoint x="610" y="490" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d-2n3dWVt-4a5A3TCcYL-40" value="1" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=1;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=bottom;rounded=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-1" y="3" relative="1" as="geometry">
+            <mxPoint x="290" y="576" as="sourcePoint" />
+            <mxPoint x="370" y="576" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d-2n3dWVt-4a5A3TCcYL-42" value="0-1" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=1;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=bottom;rounded=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-1" y="3" relative="1" as="geometry">
+            <mxPoint x="291" y="454" as="sourcePoint" />
+            <mxPoint x="371" y="454" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d-2n3dWVt-4a5A3TCcYL-44" value="0-n" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=1;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=bottom;rounded=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-1" y="3" relative="1" as="geometry">
+            <mxPoint x="291" y="369" as="sourcePoint" />
+            <mxPoint x="371" y="369" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d-2n3dWVt-4a5A3TCcYL-46" value="&lt;pre style=&quot;margin-top: 0px; margin-bottom: calc(1.5em); padding: var(--su12); border: 0px; font-variant-numeric: inherit; font-variant-east-asian: inherit; font-variant-alternates: inherit; font-weight: 400; font-stretch: inherit; line-height: var(--lh-md); font-family: var(--ff-mono); font-optical-sizing: inherit; font-kerning: inherit; font-feature-settings: inherit; font-variation-settings: inherit; font-size: var(--fs-body1); vertical-align: baseline; box-sizing: inherit; width: auto; max-height: 600px; overflow: auto; background-color: var(--highlight-bg); border-radius: var(--br-md); --_cb-line-numbers-bg: var(--black-050); color: var(--highlight-color); overflow-wrap: normal; text-align: left;&quot; class=&quot;default s-code-block&quot;&gt;&lt;code style=&quot;margin: 0px; padding: 0px; border: 0px; font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; line-height: inherit; font-family: inherit; font-optical-sizing: inherit; font-kerning: inherit; font-feature-settings: inherit; font-variation-settings: inherit; font-size: var(--_pr-code-fs); vertical-align: baseline; box-sizing: inherit; background-color: transparent;&quot; class=&quot;hljs language-less&quot;&gt;EchoDot&lt;/code&gt;&lt;/pre&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="10" y="690" width="160" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="d-2n3dWVt-4a5A3TCcYL-48" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="d-2n3dWVt-4a5A3TCcYL-46">
+          <mxGeometry y="26" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="d-2n3dWVt-4a5A3TCcYL-49" value="." style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="d-2n3dWVt-4a5A3TCcYL-46">
+          <mxGeometry y="34" width="160" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="d-2n3dWVt-4a5A3TCcYL-50" value="&lt;pre style=&quot;margin-top: 0px; margin-bottom: calc(1.5em); padding: var(--su12); border: 0px; font-variant-numeric: inherit; font-variant-east-asian: inherit; font-variant-alternates: inherit; font-weight: 400; font-stretch: inherit; line-height: var(--lh-md); font-family: var(--ff-mono); font-optical-sizing: inherit; font-kerning: inherit; font-feature-settings: inherit; font-variation-settings: inherit; font-size: var(--fs-body1); vertical-align: baseline; box-sizing: inherit; width: auto; max-height: 600px; overflow: auto; background-color: var(--highlight-bg); border-radius: var(--br-md); --_cb-line-numbers-bg: var(--black-050); color: var(--highlight-color); overflow-wrap: normal; text-align: left;&quot; class=&quot;default s-code-block&quot;&gt;&lt;code style=&quot;margin: 0px; padding: 0px; border: 0px; font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; line-height: inherit; font-family: inherit; font-optical-sizing: inherit; font-kerning: inherit; font-feature-settings: inherit; font-variation-settings: inherit; font-size: var(--_pr-code-fs); vertical-align: baseline; box-sizing: inherit; background-color: transparent;&quot; class=&quot;hljs language-less&quot;&gt;FireTV&lt;/code&gt;&lt;/pre&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="50" y="850" width="160" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="d-2n3dWVt-4a5A3TCcYL-51" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="d-2n3dWVt-4a5A3TCcYL-50">
+          <mxGeometry y="26" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="d-2n3dWVt-4a5A3TCcYL-52" value="." style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="d-2n3dWVt-4a5A3TCcYL-50">
+          <mxGeometry y="34" width="160" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="d-2n3dWVt-4a5A3TCcYL-55" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;entryX=0.389;entryY=1.014;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" target="d-2n3dWVt-4a5A3TCcYL-9">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="80" y="690" as="sourcePoint" />
+            <mxPoint x="370" y="760" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d-2n3dWVt-4a5A3TCcYL-56" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-0.0244" y="-42" width="160" relative="1" as="geometry">
+            <mxPoint x="179.99842105263167" y="850" as="sourcePoint" />
+            <mxPoint x="192.10368421052624" y="620" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d-2n3dWVt-4a5A3TCcYL-79" value="createPowerMessage" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;exitX=0.989;exitY=0.995;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.012;entryY=0.837;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="d-2n3dWVt-4a5A3TCcYL-9" target="d-2n3dWVt-4a5A3TCcYL-31">
+          <mxGeometry x="0.125" y="10" width="160" relative="1" as="geometry">
+            <mxPoint x="300" y="690" as="sourcePoint" />
+            <mxPoint x="460" y="690" as="targetPoint" />
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
       </root>
